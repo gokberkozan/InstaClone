@@ -1,0 +1,23 @@
+body {
+    padding-top: 54px;
+    background-color: #fafafa;
+}
+
+.middlearea {
+    max-height: 200px !important;
+}
+
+.stickysidebar {
+    position: sticky;
+    top: 54px;
+}
+
+.rightpanel {
+    background-color: white;
+    border: none;
+}
+
+::placeholder {
+    background: url('assets/search-icon.png') no-repeat;
+    background-size: contain;
+}

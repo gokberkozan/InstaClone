@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#" style="margin-left: 192px;">Instagram</a>
+        <div class="collapse navbar-collapse justify-content-center">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="margin-left: 5px;">
+            </form>
+        </div>
+        <div class="navbar-nav ml-auto" style="margin-left: 5px; margin-top: 2px;">
+            <a class="nav-link" href="#"><i class="fas fa-home"></i></a>
+            <a class="nav-link" href="#"><i class="fas fa-paper-plane"></i></a>
+            <a class="nav-link" href="#"><i class="fas fa-compass"></i></a>
+            <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+            <a class="nav-link d-sm-none d-md-block" href="#"><i class="fas fa-user"></i></a>
+        </div>
+    </nav>
+    <div class="container-fluid mt-5 pt-3" style="background-color: #fafafa;">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 mt-2">
+                <!-- Stories and Posts will go here -->
+                <div class="card">
+                    <div class="card-header bg-white">
+                        <img src="./images/photo1.jpg" class="rounded-circle">
+                        <span>User</span>
+                        <span class="float-right"><i class="fas fa-ellipsis-h"></i></span>
+                    </div>
+                    <div class="card-body middlearea" style="max-height: 200px !important;">
+                        <img src="./images/photo2.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer bg-white">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                        <span class="float-right offset-7"><i class="far fa-bookmark"></i></span>
+                        <input type="text" class="form-control mt-2" placeholder="Add a comment">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block rightpanel">
+                <div class="stickysidebar">
+                    <!-- Right sidebar content -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
